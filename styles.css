@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.seccion-principal {
+    background: url('ruta/a/tu-background-principal.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh; /* Ajusta la altura según sea necesario */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.seccion-secundaria {
+    background-color: black;
+    height: 100vh; /* Ajusta la altura según sea necesario */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+<section id="second-section">
+        <div class="contenido">
+        <p class="second">CONOCE NUESTROS SERVICIOS</p>
+        <p class="second1">Organización de eventos infantiles</p>
+        <p class="second2">Festejamos logros, momentos especiales y tradiciones; 
+            siempre a la vanguardia de las nuevas tendencias y la personalización de cada proyecto, donde nuestra prioridad es 
+            que vivas una experiencia única en cada etapa de la planificación.</p>
+        <p class="second1">Pijamadas</p>
+        <p class="second1">Picnics</p>
+        <p class="second1">Decorados</p>
+    </div>

@@ -10,21 +10,91 @@
 
 <body id="body">
 <header id="header">
-    <section id="main">
-        <h2>PIJAMA PARTY</h2>
-        <h3>Inicio</h3>
-        <h3>Nosotros</h3>
-        <h3>Servicio</h3>
-        <h3>Contacto</h3>
-    </section>   
+<div class="overlay"></div> 
+<div class="contenido">
+    <section id="nav">
+    <nav class="navbar">
+        <div class="logo">🌟 MiLogo</div>
+        <ul class="nav-links">
+            <li><a href="#" class="icon">🏠 Inicio</a></li>
+            <li><a href="#" class="icon">👤 Quienes Somos</a></li>
+            <li class="dropdown">
+                <a href="#" class="icon">🎉​ Servicios</a>
+                <ul class="submenu">
+                    <li><a href="#"><span class="emoji">☀️​</span> Picnic</a></li>
+                    <li><a href="#"><span class="emoji">💤​</span> Pijamada</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a href="#" class="icon">🧸​​ Eventos</a></li>
+            <li><a href="#" class="icon">📞 Contacto</a></li>
+        </ul>
+    </nav>
+    </section>
+    <section id="texts">
+    <h3 class="one">Organización y Producción de Eventos Infantiles</h3>
+    <h1 class="two">PIJAMA PARTY</h1>
+    <h4 class="three">"crecer soñando"</h4>
+    </section>
+</div>
 </header>
 
 <main id="main_content">
-    
+    <section id="idk"><div class="contenido"><p class="first">QUIENES SOMOS:</p></div></section>
+    <section id="first-section">
+        <div class="contenido">
+        <div class="about">
+        <p class="first1">¡Bienvenidos a nuestro mundo de celebración!</p>
+        <p class="first1">¡Amamos, respiramos y vivimos el mundo de los eventos!</p>
+        <p class="first2">A través de los servicios de planificación y producción de eventos, hemos sido cómplices de 
+            familias a las cuales hemos acompañado a transformar momentos muy importantes de sus vida en eventos 
+            y celebraciones inolvidables, y asi lograr “crecer soñando”.</p>
+        <p class="subtitlew">¡Nos encantaría formar parte de tus momentos soñados!</p></div>
+        </div>
+    </section>
+    <section id="idk"><div class="contenido"><p class="second">CONOCE NUESTROS SERVICIOS</p></div></section>
+    <section id="second-section">
+        <div class="contenido">
+            
+            <div class="t-info"><p class="second1">Organización de eventos infantiles</p></div>
+            <div class="info"><p class="second2">Festejamos logros, momentos especiales y tradiciones; 
+                siempre a la vanguardia de las nuevas tendencias y la personalización de cada proyecto, donde nuestra prioridad es 
+                que vivas una experiencia única en cada etapa de la planificación.</p></div>
+            <div class="pic"><p class="second1">Picnics</p>
+            <img src="img/picnic-green.jpeg" alt="picnic" class="pic-img"></div>
+            <div class="pjmd"><p class="second1">Pijamadas</p>
+            <img src="img/pijamada-gradient.jpeg" alt="pijamada" class="pij-img"></div>
+        </div>
+    </section>
+    <section id="idk"><div class="contenido"><p class="third">EVENTOS:</p></div></section>
+    <section id="third-section">
+        <div class="contenido">
+        
+        <p class="third1">Momentos capturados</p></div>
+    </section>
 </main>
 
-<footer id="footer" >
-   
-</footer>  
+<footer id="footer">
+    <div class="contenido">
+        <p class="fourth">¡Quiero planificar un evento inolvidable!</p>
+        <p class="fourth1">Ponte en contacto con nosotros para comenzar</p>
+        <section id="form">
+        <form onsubmit="event.preventDefault(); showAlert();">
+        <section>
+            <input type="Nombre" name="text" class="input" placeholder="Nombre">
+            <input type="Apellido" name="text" class="input" placeholder="Apellido">
+        </section>
+        <section>
+            <input type="Numero" name="text" class="input" placeholder="Numero">
+            <input type="Email" name="text" class="input" placeholder="Email">
+        </section>
+        <section><input type="Que deseas celebrar" name="text" class="wish" placeholder="Que deseas celebrar"></section>
+        <section><input type="Mensaje" name="text" class="messege" placeholder="Mensaje"></section>
+        <button class="button">Enviar</button>
+        </section>
+    </div>   
+</footer>
+<section id="fifth-section">
+
+</section>
 </body>
 </html>
