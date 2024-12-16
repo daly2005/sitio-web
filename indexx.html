@@ -2,18 +2,24 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fondo Continuo</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Ejemplo de Navegación</title>
+    <style>
+        /* Estilos opcionales para el botón */
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <div class="seccion-principal">
-        <h1>Sección Principal</h1>
-        <p>Este es el contenido de la sección principal.</p>
-    </div>
-    <div class="seccion-secundaria">
-        <h1>Sección Secundaria</h1>
-        <p>Este es el contenido de la sección secundaria.</p>
-    </div>
+    <button id="scrollButton">Ir a Sección 1</button>
+
+    <div style="height: 1000px;"></div> <!-- Espacio para desplazarse -->
+
+    <h2 id="seccion1">Sección 1</h2>
+    <p>Contenido de la Sección 1.</p>
+
+    <script src="scripyy.js"></script>
 </body>
 </html>
