@@ -12,18 +12,6 @@
     font-weight: bold;
 }
 
-
-#header{
-    margin: 0;
-    padding: 0;
-}
-
-#contenido-actual {
-    background-image:url('img/tipii.jpeg');
-    background-size: cover;
-    height: 133vh;
-}
-
 .overlay { 
     position: absolute; 
     top: 0; left: 0; 
@@ -33,6 +21,16 @@
     z-index: 1; 
 } 
 
+#header{
+    margin: 0;
+    padding: 0;
+}
+
+.contenidoo { 
+  position: relative; 
+  z-index: 5;  
+  color: white;
+}
 .contenido { 
     position: relative; 
     z-index: 2;  
@@ -43,10 +41,11 @@
   z-index: 2;  
   color: white;
 }
-.contenidoo { 
-  position: relative; 
-  z-index: 5;  
-  color: white;
+
+#contenido-actual {
+    background-image:url('img/tipii.jpeg');
+    background-size: cover;
+    height: 133vh;
 }
 
 .navbar {
@@ -60,7 +59,7 @@
     color: white;
 }
 
-.icon{
+.icon {
     transition: box-shadow 0.3s ease;
     border-radius: 20px;
 }
@@ -85,6 +84,7 @@
 .nav-links li {
     position: relative;
 }
+
 .nav-links a {
     text-decoration: none;
     color: white;
@@ -92,6 +92,7 @@
     padding: 10px 15px;
     transition: box-shadow 0.3s ease;
 }
+
 .nav-links button {
   background-color: transparent; /* Sin fondo */
   border: none; /* Sin borde */
@@ -142,20 +143,20 @@
     display: block;
 }
 
-.submenu .sun{
+.submenu .sun {
   width: 118px;
 }
-.emoji{
+.emoji {
     margin-right: 10px;
 }
 
-.one{
+.one {
     display: flex;
     justify-content: center;
     margin-top: 100px;
     font-size: 30px;
 }
-.two{
+.two {
     display: flex;
     justify-content: center;
     font-size: 100px;
@@ -221,27 +222,26 @@
     }
   }
 
-
-
-.three{
+.three {
     display: flex;
     justify-content: center;
     margin-top: 340px;
     font-size: 20px;
 }
-#texts{
+
+#texts {
     padding-top: 180px;
     padding-bottom: 300px;
 }
 
-#first-section{
+#first-section {
     background-image: url('img/brunette.jpg');
     background-size: cover;
     height: 133vh;
     padding-top: 210px;
   padding-right: 210px;
 }
-.about{
+.about {
   width: 33.7%;
   float: right; 
   background: linear-gradient(rgba(255, 202, 230, 0.3),rgb(255, 53, 114, 0.7)); 
@@ -251,15 +251,15 @@
   margin-top: 60px;
   margin-right: -100px;
 }
-.first1{
+.first1 {
   font-size: 20px;
   padding: 10px;
 }
-.first2{
+.first2 {
   font-size: 16px;
   padding: 10px;
 }
-.kid{
+.kid {
   height: 400px;
   border-radius: 90px;
   padding-top: 20px;
@@ -308,7 +308,7 @@
     height: 400px;
     padding: 20px;
     margin-top: -30px;
-    margin-left: 46px;
+    margin-left: 53px;
     border-radius: 90px;
 }
 .pic {
@@ -609,7 +609,6 @@
 
 img:hover{
   transform: translateY(-2px);
-  
 }
 
 #foot{
