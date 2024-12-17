@@ -8,75 +8,118 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body id="body">
+<body id="body"><div class="overlay"></div> 
 <header id="header">
-<div class="overlay"></div> 
-<div class="contenido">
+
+<div class="contenidoo">
     <section id="nav">
     <nav class="navbar">
         <div class="logo">🌟 MiLogo</div>
         <ul class="nav-links">
-            <li><button><a href="#" class="icon">🏠 Inicio</a></button></li>
-            <li><button><a href="#" class="icon">👤 Quienes Somos</a></button></li>
+            <li><button onclick="menu()"><a href="#" class="icon">🏠 Inicio</a></button></li>
+            <li><button onclick="cambiarContenido()"><a href="#" class="icon">👤 ¿Quiénes Somos?</a></button></li>
             <li class="dropdown">
-                <button><a href="#" class="icon">🎉​ Servicios</a></button>
+                <button onclick="cambiarContenido2()"><a href="#" class="icon">🎉​ Servicios</a></button>
                 <ul class="submenu">
-                    <li><button class="sun"><a href="#"><span class="emoji">☀️​</span> Picnic</a></button></li>
-                    <li><button><a href="#"><span class="emoji">💤​</span> Pijamada</a></button></li>
+                    <li><button class="sun" onclick="cambiarContenido2()"><a href="#"><span class="emoji">☀️​</span> Picnic</a></button></li>
+                    <li><button onclick="cambiarContenido2()"><a href="#"><span class="emoji">💤​</span> Pijamada</a></button></li>
                 </ul>
             </li>
-            <li><button><a href="#" class="icon">🧸​​ Eventos</a></button></li>
-            <li><button><a href="#" class="icon">📞 Contacto</a></button></li>
+            <li><button onclick="cambiarContenido3()"><a href="#" class="icon">🧸​​ Eventos</a></button></li>
+
+            <li><button onclick="cambiarContenido4()"><a href="#" class="icon">📞 Contacto</a></button></li>
         </ul>
     </nav>
-    </section>
+    </section></div>
+
+    <div id="contenido-actual">
+    <div class="contenido">
     <section id="texts">
     <h3 class="one">Organización y Producción de Eventos Infantiles</h3>
     <h1 class="two">PIJAMA PARTY</h1>
     <h4 class="three">"crecer soñando"</h4>
     </section>
 </div>
+</div>
+
 </header>
 
 <main id="main_content">
-    <section id="idk"><div class="contenido"><p class="first">QUIENES SOMOS:</p></div></section>
+    <div id="nuevo-contenido" style="display: none;">
     <section id="first-section">
         <div class="contenido">
+        <p class="first">QUIÉNES SOMOS:</p>
         <div class="about">
         <p class="first1">¡Bienvenidos a nuestro mundo de celebración!</p>
-        <p class="first1">¡Amamos, respiramos y vivimos el mundo de los eventos!</p>
         <p class="first2">A través de los servicios de planificación y producción de eventos, hemos sido cómplices de 
             familias a las cuales hemos acompañado a transformar momentos muy importantes de sus vida en eventos 
             y celebraciones inolvidables, y asi lograr “crecer soñando”.</p>
-        <p class="subtitlew">¡Nos encantaría formar parte de tus momentos soñados!</p></div>
+        <p class="first1">¡Nos encantaría formar parte de tus momentos soñados!</p>
+        <img src="img/child.jpeg" alt="kid" class="kid"></div>
         </div>
     </section>
-    <section id="idk"><div class="contenido"><p class="second">CONOCE NUESTROS SERVICIOS</p></div></section>
+</div>
+
+<div id="nuevo-contenido2" style="display: none;">
     <section id="second-section">
-        <div class="contenido">
-            <div class="t-info"><p class="second1">Organización de eventos infantiles</p></div>
-            <div class="info"><p class="second2">Festejamos logros, momentos especiales y tradiciones; 
+        <div class="contenidom">
+            
+            <p class="secondd">CONOCE NUESTROS SERVICIOS</p>
+            <div class="t-info">
+                <p class="second1">Organización de eventos infantiles</p>
+            </div>
+
+            <div class="info">
+                <p class="second2">Festejamos logros, momentos especiales y tradiciones; 
                 siempre a la vanguardia de las nuevas tendencias y la personalización de cada proyecto, donde nuestra prioridad es 
-                que vivas una experiencia única en cada etapa de la planificación.</p></div>
-        <div class="pic"><p class="second1">Picnics</p>
-                <p pic-t>Ofrecemos picnics con carpas tipi que proporcionan sombra y un espacio acogedor, decorado con detalles temáticos para una fiesta infantil al aire libre.</p>
+                que vivas una experiencia única en cada etapa de la planificación.</p>
+            </div>
+
+            <div class="pic">
+            <p class="second1">Picnics</p>
+                <p pic-t>Ofrecemos picnics con carpas tipi que proporcionan sombra y un espacio acogedor,
+                decorado con detalles temáticos para una fiesta infantil al aire libre.</p>
                 <img src="img/picnic-green.jpeg" alt="picnic" class="pic-img">
-        </div>
-        <div class="pjmd">
+            </div>
+
+            <div class="pjmd">
                 <p class="second1">Pijamadas</p>
                 <p class="pij-t">Organizamos pijamadas con carpas tipi decoradas con luces y cojines, creando un ambiente mágico para que los niños disfruten de una noche especial.</p>
-                <img src="img/pijamada-gradient.jpeg" alt="pijamada" class="pij-img"></div>
+                <img src="img/pijamada-gradient.jpeg" alt="pijamada" class="pij-img">
+            </div>
+
         </div>
     </section>
-    <section id="idk"><div class="contenido"><p class="third">EVENTOS:</p></div></section>
+</div>
+
+<div id="nuevo-contenido3" style="display: none;">
+    
     <section id="third-section">
+        <section id="idk">
+        <div class="contenido"><p class="third">EVENTOS:</p></div>
+        </section>
         <div class="contenido">
-        
-        <p class="third1">Momentos capturados</p></div>
+            <p class="third1">Momentos capturados</p>
+            <div class="box">
+                <span style="--i:1"><img src="img/pink-party.jpg"></span>
+                <span style="--i:2"><img src="img/pik-party2.jpg"></span>
+                <span style="--i:3"><img src="img/pink-party5.jpg"></span>
+                <span style="--i:4"><img src="img/dog-party4.jpg"></span>
+                <span style="--i:5"><img src="img/dog-party6.jpg"></span>
+                <span style="--i:6"><img src="img/unicorn-party3.jpg"></span>
+                <span style="--i:7"><img src="img/unicorn-party2.jpg"></span>
+                <span style="--i:8"><img src="img/picnic-y.jpg"></span>
+                <span style="--i:9"><img src="img/young.jpg"></span>
+                <span style="--i:10"><img src="img/doggo.jpg"></span>
+            </div>
+        </div>
     </section>
+</div>
 </main>
 
+
 <footer >
+    <section id="nuevo-contenido4" style="display: none;">
     <section id="footer">
     <div class="contenido">
         <section id="formm">
@@ -89,19 +132,30 @@
             <input type="Apellido" name="text" id="input" placeholder="Apellido">
         </section>
         <section>
-            <input type="Numero" name="text" id="input" placeholder="Numero">
+            <input type="Numero" name="text" id="input" placeholder="Número">
             <input type="Email" name="text" id="input" placeholder="Email">
+            <section><input type="¿Que deseas celebrar?" name="text" id="wish" placeholder="¿Qué deseas celebrar?"></section>
         </section>
-        <section><input type="Que deseas celebrar" name="text" id="wish" placeholder="Que deseas celebrar"></section>
         <section><input type="Mensaje" name="text" id="messege" placeholder="Mensaje"></section>
         <button class="button">Enviar</button>
         </section>
     </section>
     </section>
         </form>
-    </div>   
+<section id="foot">
+<section id="footer1">
+    <h4 class="social">Redes Sociales</h4>
+</section> 
 
-<section id="fifth-section">
+<section id="footer2">
+    <div class="social-media">
+    <p class="wt"><img src="img/whatsapp.png" alt="whatsapp" class="icons"><a href="https://wa.me/qr/JCDBIDLUS6Z2N1 " class="enlace">73340388</a></p>
+    <p class="ig"><img src="img/instagram.png" alt="instagram" class="icons"><a href="https://www.instagram.com/partippijama?igsh=MWFjMXIycHc5bnhxMg== " class="enlace">@partippijama</a></p>
+    <p class="fb"><img src="img/facebook.png" alt="facebook" class="icons"><a href="https://www.facebook.com/partippijama?mibextid=ZbWKwL " class="enlace">Pijama Party Kids</a></p>
+    </div>
+</section>
+</section>
+</div>
 </section>
 </footer>
 <script src="script.js"></script>
