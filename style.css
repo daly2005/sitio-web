@@ -139,18 +139,6 @@
     border-radius: 5px;
 }
 
-.submenu li a:hover {
-    background: #f1f1f1;
-    border-radius: 5px;
-}
-
-.dropdown:hover .submenu {
-    display: block;
-}
-
-.submenu .sun {
-  width: 118px;
-}
 .emoji {
     margin-right: 10px;
 }

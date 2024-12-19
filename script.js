@@ -12,28 +12,16 @@ function showAlert() {
 
 function menu() {
     // Ocultar todo el contenido actual
-    var contenidoActual = document.getElementById("nuevo-contenido","nuevo-contenido2","nuevo-contenido3","nuevo-contenido4");
+    var contenidoActual = document.getElementById("nuevo-contenido");
     contenidoActual.style.display = "none";
-
-    // Mostrar el nuevo contenido
-    var nuevoContenido = document.getElementById("contenido-actual");
-    nuevoContenido.style.display = "block";
 
     // Ocultar todo el contenido actual
     var contenidoActual = document.getElementById("nuevo-contenido2");
     contenidoActual.style.display = "none";
 
-    // Mostrar el nuevo contenido
-    var nuevoContenido = document.getElementById("contenido-actual");
-    nuevoContenido.style.display = "block";
-
     // Ocultar todo el contenido actual
     var contenidoActual = document.getElementById("nuevo-contenido3");
     contenidoActual.style.display = "none";
-
-    // Mostrar el nuevo contenido
-    var nuevoContenido = document.getElementById("contenido-actual");
-    nuevoContenido.style.display = "block";
 
     // Ocultar todo el contenido actual
     var contenidoActual = document.getElementById("nuevo-contenido4");
@@ -47,28 +35,16 @@ function menu() {
 
 function cambiarContenido() {
     // Ocultar todo el contenido actual
-    var contenidoActual = document.getElementById("contenido-actual","nuevo-contenido2","nuevo-contenido3","nuevo-contenido4");
+    var contenidoActual = document.getElementById("contenido-actual");
     contenidoActual.style.display = "none";
-
-    // Mostrar el nuevo contenido
-    var nuevoContenido = document.getElementById("nuevo-contenido");
-    nuevoContenido.style.display = "block";
 
     // Ocultar todo el contenido actual
     var contenidoActual = document.getElementById("nuevo-contenido2");
     contenidoActual.style.display = "none";
 
-    // Mostrar el nuevo contenido
-    var nuevoContenido = document.getElementById("nuevo-contenido");
-    nuevoContenido.style.display = "block";
-
     // Ocultar todo el contenido actual
     var contenidoActual = document.getElementById("nuevo-contenido3");
     contenidoActual.style.display = "none";
-
-    // Mostrar el nuevo contenido
-    var nuevoContenido = document.getElementById("nuevo-contenido");
-    nuevoContenido.style.display = "block";
 
     // Ocultar todo el contenido actual
     var contenidoActual = document.getElementById("nuevo-contenido4");
@@ -82,28 +58,16 @@ function cambiarContenido() {
 
 function cambiarContenido2() {
     // Ocultar todo el contenido actual
-    var contenidoActual = document.getElementById("contenido-actual","nuevo-contenido","nuevo-contenido3","nuevo-contenido4");
+    var contenidoActual = document.getElementById("contenido-actual");
     contenidoActual.style.display = "none";
-
-    // Mostrar el nuevo contenido
-    var nuevoContenido = document.getElementById("nuevo-contenido2");
-    nuevoContenido.style.display = "block";
 
     // Ocultar todo el contenido actual
     var contenidoActual = document.getElementById("nuevo-contenido");
     contenidoActual.style.display = "none";
 
-    // Mostrar el nuevo contenido
-    var nuevoContenido = document.getElementById("nuevo-contenido2");
-    nuevoContenido.style.display = "block";
-
     // Ocultar todo el contenido actual
     var contenidoActual = document.getElementById("nuevo-contenido3");
     contenidoActual.style.display = "none";
-
-    // Mostrar el nuevo contenido
-    var nuevoContenido = document.getElementById("nuevo-contenido2");
-    nuevoContenido.style.display = "block";
 
     // Ocultar todo el contenido actual
     var contenidoActual = document.getElementById("nuevo-contenido4");
@@ -117,28 +81,16 @@ function cambiarContenido2() {
 
 function cambiarContenido3() {
     // Ocultar todo el contenido actual
-    var contenidoActual = document.getElementById("contenido-actual","nuevo-contenido","nuevo-contenido2","nuevo-contenido4");
+    var contenidoActual = document.getElementById("contenido-actual");
     contenidoActual.style.display = "none";
-
-    // Mostrar el nuevo contenido
-    var nuevoContenido = document.getElementById("nuevo-contenido3");
-    nuevoContenido.style.display = "block";
 
     // Ocultar todo el contenido actual
     var contenidoActual = document.getElementById("nuevo-contenido");
     contenidoActual.style.display = "none";
 
-    // Mostrar el nuevo contenido
-    var nuevoContenido = document.getElementById("nuevo-contenido3");
-    nuevoContenido.style.display = "block";
-
     // Ocultar todo el contenido actual
     var contenidoActual = document.getElementById("nuevo-contenido2");
     contenidoActual.style.display = "none";
-
-    // Mostrar el nuevo contenido
-    var nuevoContenido = document.getElementById("nuevo-contenido3");
-    nuevoContenido.style.display = "block";
 
     // Ocultar todo el contenido actual
     var contenidoActual = document.getElementById("nuevo-contenido4");
@@ -152,28 +104,16 @@ function cambiarContenido3() {
 
 function cambiarContenido4() {
     // Ocultar todo el contenido actual
-    var contenidoActual = document.getElementById("contenido-actual","nuevo-contenido","nuevo-contenido2","nuevo-contenido3");
+    var contenidoActual = document.getElementById("contenido-actual");
     contenidoActual.style.display = "none";
-
-    // Mostrar el nuevo contenido
-    var nuevoContenido = document.getElementById("nuevo-contenido4");
-    nuevoContenido.style.display = "block";
 
     // Ocultar todo el contenido actual
     var contenidoActual = document.getElementById("nuevo-contenido");
     contenidoActual.style.display = "none";
 
-    // Mostrar el nuevo contenido
-    var nuevoContenido = document.getElementById("nuevo-contenido4");
-    nuevoContenido.style.display = "block";
-
     // Ocultar todo el contenido actual
     var contenidoActual = document.getElementById("nuevo-contenido2");
     contenidoActual.style.display = "none";
-
-    // Mostrar el nuevo contenido
-    var nuevoContenido = document.getElementById("nuevo-contenido4");
-    nuevoContenido.style.display = "block";
 
     // Ocultar todo el contenido actual
     var contenidoActual = document.getElementById("nuevo-contenido3");
